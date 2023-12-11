@@ -1,0 +1,132 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"p": {
+					"type": "listbox",
+					"left": 31,
+					"top": 22,
+					"width": 458,
+					"height": 221,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.dependencies",
+					"selectedItemsSource": "Form:C1466.selected",
+					"columns": [
+						{
+							"header": {
+								"text": "Name",
+								"name": "Header1"
+							},
+							"name": "Column1",
+							"footer": {
+								"name": "Footer1"
+							},
+							"dataSource": "This:C1470.name",
+							"width": 254,
+							"enterable": false
+						},
+						{
+							"header": {
+								"name": "Header2",
+								"text": "Loaded"
+							},
+							"name": "Column2",
+							"footer": {
+								"name": "Footer2"
+							},
+							"dataSourceTypeHint": "boolean",
+							"dataSource": "This:C1470.loaded",
+							"enterable": false,
+							"resizable": false
+						}
+					]
+				},
+				"Button": {
+					"type": "button",
+					"text": "＋",
+					"top": 258,
+					"left": 31,
+					"width": 37,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button.4dm"
+				},
+				"rer": {
+					"type": "button",
+					"text": "﹣",
+					"top": 258,
+					"left": 78,
+					"width": 35,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/rer.4dm"
+				},
+				"rer1": {
+					"type": "button",
+					"text": "Restart to reload",
+					"top": 258,
+					"left": 368,
+					"width": 121,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/rer1.4dm"
+				}
+			}
+		}
+	],
+	"geometryStamp": 24,
+	"method": "method.4dm",
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}
