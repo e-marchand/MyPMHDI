@@ -1,8 +1,8 @@
-//%attributes = {"invisible":true}
+//%attributes = {}
 #DECLARE($names : Collection)
 
 var $dependenciesFile : 4D:C1709.File
-$dependenciesFile:=GetDependenciesFile
+$dependenciesFile:=GetEnvFile
 
 If (Not:C34($dependenciesFile.exists))
 	return 

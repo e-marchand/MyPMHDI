@@ -28,7 +28,7 @@
 		"onTimer",
 		"onBoundVariableChange"
 	],
-	"windowTitle": "window title",
+	"windowTitle": "My current PackageManager dependencies",
 	"destination": "detailScreen",
 	"pages": [
 		{
@@ -83,10 +83,10 @@
 				},
 				"Button": {
 					"type": "button",
-					"text": "＋",
+					"text": "Add Sibling",
 					"top": 258,
-					"left": 31,
-					"width": 37,
+					"left": 26,
+					"width": 81,
 					"height": 22,
 					"events": [
 						"onClick"
@@ -95,10 +95,10 @@
 				},
 				"rer": {
 					"type": "button",
-					"text": "﹣",
+					"text": "Delete selected",
 					"top": 258,
-					"left": 78,
-					"width": 35,
+					"left": 240,
+					"width": 121,
 					"height": 22,
 					"events": [
 						"onClick"
@@ -116,11 +116,23 @@
 						"onClick"
 					],
 					"method": "ObjectMethods/rer1.4dm"
+				},
+				"Button1": {
+					"type": "button",
+					"text": "Add Folder",
+					"top": 258,
+					"left": 127,
+					"width": 93,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button1.4dm"
 				}
 			}
 		}
 	],
-	"geometryStamp": 24,
+	"geometryStamp": 33,
 	"method": "method.4dm",
 	"editor": {
 		"activeView": "View 1",
