@@ -38,10 +38,10 @@
 			"objects": {
 				"p": {
 					"type": "listbox",
-					"left": 31,
-					"top": 22,
-					"width": 458,
-					"height": 221,
+					"left": 20,
+					"top": 73,
+					"width": 478,
+					"height": 236,
 					"events": [
 						"onClick",
 						"onHeaderClick",
@@ -51,6 +51,8 @@
 					"listboxType": "collection",
 					"dataSource": "Form:C1466.dependencies",
 					"selectedItemsSource": "Form:C1466.selected",
+					"scrollbarVertical": "visible",
+					"scrollbarHorizontal": "hidden",
 					"columns": [
 						{
 							"header": {
@@ -84,8 +86,8 @@
 				"Button": {
 					"type": "button",
 					"text": "Add Sibling",
-					"top": 258,
-					"left": 26,
+					"top": 337,
+					"left": 20,
 					"width": 81,
 					"height": 22,
 					"events": [
@@ -96,8 +98,8 @@
 				"rer": {
 					"type": "button",
 					"text": "Delete selected",
-					"top": 258,
-					"left": 240,
+					"top": 337,
+					"left": 249,
 					"width": 121,
 					"height": 22,
 					"events": [
@@ -108,8 +110,8 @@
 				"rer1": {
 					"type": "button",
 					"text": "Restart to reload",
-					"top": 258,
-					"left": 368,
+					"top": 337,
+					"left": 377,
 					"width": 121,
 					"height": 22,
 					"events": [
@@ -120,19 +122,29 @@
 				"Button1": {
 					"type": "button",
 					"text": "Add Folder",
-					"top": 258,
-					"left": 127,
+					"top": 337,
+					"left": 115,
 					"width": 93,
 					"height": 22,
 					"events": [
 						"onClick"
 					],
 					"method": "ObjectMethods/Button1.4dm"
+				},
+				"Text": {
+					"type": "text",
+					"text": "List of current dependencies\r",
+					"top": 20,
+					"left": 20,
+					"width": 260,
+					"height": 31,
+					"fontSize": 18,
+					"fontWeight": "bold"
 				}
 			}
 		}
 	],
-	"geometryStamp": 33,
+	"geometryStamp": 153,
 	"method": "method.4dm",
 	"editor": {
 		"activeView": "View 1",
