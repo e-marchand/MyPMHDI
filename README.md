@@ -36,4 +36,5 @@ You could now launch the form to edit your project dependencies using the shared
 
 ## TODO
 
-- [ ] [all added folders to environment are added using absolute path, maybe add it as relative path if inside base and maybe also if in parent folder](https://github.com/e-marchand/PackageManagerJSONEditor/blob/main/Project/Sources/Methods/AddDependencyPathToEnv.4dm#L22)
+- [ ] When adding a folder allow to have relative folder, maybe automatically if component base is in sibling folder or in base [code here](https://github.com/e-marchand/PackageManagerJSONEditor/blob/main/Project/Sources/Methods/AddDependencyPathToEnv.4dm#L22)
+- [ ] When adding a folder allow to set a custom name
