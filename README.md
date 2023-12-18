@@ -28,8 +28,8 @@ And open your base (or restart if already started).
 > [!TIP]  
 > You could execute this code in your base too, to create the file
 ```4d
-Folder(fk database folder).file("Project/Sources/dependencies.json").\
-  setText(JSON Stringify({dependencies: {PackageManagerJSONEditor: {}}}))
+Folder:C1567(fk database folder:K87:14).file("Project/Sources/dependencies.json")\
+.setText(JSON Stringify:C1217({dependencies: {PackageManagerJSONEditor: {}}}))
 ```
 
 > [!NOTE]  
