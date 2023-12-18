@@ -15,7 +15,7 @@ Just launch the base, the form will be launched to edit this project dependencie
 
 First download this project in the parent folder of your base.
 
-Then create inyour project a file named `Project/Sources/dependencies.json` with this content:
+Then create in your project a file named `Project/Sources/dependencies.json` with this content:
 
 ```json
 {"dependencies": { "PackageManagerJSONEditor": {}}}
