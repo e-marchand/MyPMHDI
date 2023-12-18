@@ -23,7 +23,7 @@ Then create in your project a file named `Project/Sources/dependencies.json` wit
 
 And open your base (or restart if already started).
 
-🎉 You could now launch the form to edit your project dependencies using the shared method `ShowPackageManagerForm`
+🎉 You could now launch the form to edit your project dependencies using the shared method `ShowPackageManagerForm`. ( [code example](DemoInstall.4dm))
 
 > [!TIP]  
 > You could execute this code in your base too, to create the file
