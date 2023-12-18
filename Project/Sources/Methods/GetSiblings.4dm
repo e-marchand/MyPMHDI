@@ -13,5 +13,5 @@ $folders:=$folders.filter(Formula:C1597(Not:C34($1.value.fullName=$root.fullName
 
 $folders:=$folders.map(Formula:C1597($1.value.fullName))
 
-return $folders
+return $folders.sort()
 
