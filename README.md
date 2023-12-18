@@ -13,7 +13,7 @@ Just launch the base, the form will be launched to edit this project dependencie
 
 ## as component
 
-First ownload this project in same parent folder of your base.
+First download this project in the parent folder of your base.
 
 Then create inyour project a file named `Project/Sources/dependencies.json` with this content:
 
