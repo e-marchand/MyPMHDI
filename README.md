@@ -1,6 +1,9 @@
 # PackageManagerJSONEditor
 
- sample form to edit dependencies ⚠️ Not a release feature. Just Proof Of Concept
+Sample form to edit dependencies JSON files
+
+> [!WARNING]  
+> Not a released feature.
 
 <img width="621" alt="Screenshot 2023-12-16 at 18 16 22" src="https://github.com/e-marchand/MyPMHDI/assets/129385512/63b38d2c-0ca0-4dc1-8143-1cc77345b5ec">
 
@@ -19,6 +22,12 @@ then create into your project a file named `Project/Sources/dependencies.json` w
 ```
 
 And open your base (or restart if already started).
+
+> [!TIP]  
+> You could execute this code in your base too, to create the file
+```4d
+Folder(fk database folder).file("Project/Sources/dependencies.json").setText(JSON Stringify({dependencies: {PackageManagerJSONEditor: {}}}))
+```
 
 You could now launch the form to edit your project dependencies using the shared method `ShowPackageManagerForm`
 
