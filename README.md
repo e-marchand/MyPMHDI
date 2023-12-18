@@ -12,7 +12,7 @@ just launch the base, the form will edit this project dependencies.
 
 ## as component
 
-download this project in a sibling folder of your base
+download this project in same parent folder of your base
 
 then create into your project a file named `Project/Sources/dependencies.json` with content
 
