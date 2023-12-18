@@ -9,13 +9,13 @@ Sample form to edit dependencies JSON files
 
 ## as demo
 
-Just launch the base, the form will be launch to edit this project dependencies.
+Just launch the base, the form will be launched to edit this project dependencies.
 
 ## as component
 
-download this project in same parent folder of your base
+First ownload this project in same parent folder of your base.
 
-then create into your project a file named `Project/Sources/dependencies.json` with this content:
+Then create inyour project a file named `Project/Sources/dependencies.json` with this content:
 
 ```json
 {"dependencies": { "PackageManagerJSONEditor": {}}}
@@ -23,16 +23,17 @@ then create into your project a file named `Project/Sources/dependencies.json` w
 
 And open your base (or restart if already started).
 
+🎉 You could now launch the form to edit your project dependencies using the shared method `ShowPackageManagerForm`
+
 > [!TIP]  
 > You could execute this code in your base too, to create the file
 ```4d
 Folder(fk database folder).file("Project/Sources/dependencies.json").setText(JSON Stringify({dependencies: {PackageManagerJSONEditor: {}}}))
 ```
 
-You could now launch the form to edit your project dependencies using the shared method `ShowPackageManagerForm`
-
 > [!NOTE]  
-> The created environment is created by default in the database folder ([code here](https://github.com/e-marchand/PackageManagerJSONEditor/blob/main/Project/Sources/Methods/GetEnvFile.4dm#L17)). Maybe it could be better to create it in parent folder to share with other components.
+> The created environment is created by default in the database folder ([code here](https://github.com/e-marchand/PackageManagerJSONEditor/blob/main/Project/Sources/Methods/GetEnvFile.4dm#L17)).
+> Maybe it could be better to create it in parent folder to share with other components.
 
 ## TODO
 
