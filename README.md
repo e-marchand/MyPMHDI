@@ -10,7 +10,7 @@
 just launch the base, the form will edit this project dependencies.
 
 
-## as composant
+## as component
 
 download this project in a sibling folder of your base
 
