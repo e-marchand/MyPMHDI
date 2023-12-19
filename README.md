@@ -26,7 +26,7 @@ And open your base (or restart if already started).
 🎉 You could now launch the form to edit your project dependencies using the shared method `ShowPackageManagerForm`. ( [code example](DemoInstall.4dm))
 
 > [!TIP]  
-> You could execute this code in your base too, to create the file
+> You could execute this code in your base to create the file
 ```4d
 Folder(fk database folder).file("Project/Sources/dependencies.json")\
 .setText(JSON Stringify:C1217({dependencies: {PackageManagerJSONEditor: {}}}))
