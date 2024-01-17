@@ -3,7 +3,7 @@
 Sample form to edit dependencies JSON files
 
 > [!WARNING]  
-> Not a released feature.
+> Not a released feature. It could help to test, before an UI is available within 4D
 
 <img width="621" alt="Screenshot 2023-12-16 at 18 16 22" src="https://github.com/e-marchand/MyPMHDI/assets/129385512/63b38d2c-0ca0-4dc1-8143-1cc77345b5ec">
 
@@ -31,10 +31,6 @@ And open your base (or restart if already started).
 Folder(fk database folder).file("Project/Sources/dependencies.json")\
 .setText(JSON Stringify:C1217({dependencies: {PackageManagerJSONEditor: {}}}))
 ```
-
-> [!NOTE]  
-> The created environment is created by default in the database folder ([code here](https://github.com/e-marchand/PackageManagerJSONEditor/blob/main/Project/Sources/Methods/GetEnvFile.4dm#L17)).
-> Maybe it could be better to create it in parent folder to share with other components.
 
 ## TODO
 
