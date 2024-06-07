@@ -3,7 +3,7 @@
 Sample form to edit dependencies JSON files
 
 > [!WARNING]  
-> Not a released feature. It could help to test, before an UI is available within 4D
+> 20R5 have now a dedicated interface to visualize dependencies. And will have button to edit too
 
 <img width="621" alt="Screenshot 2023-12-16 at 18 16 22" src="https://github.com/e-marchand/MyPMHDI/assets/129385512/63b38d2c-0ca0-4dc1-8143-1cc77345b5ec">
 
